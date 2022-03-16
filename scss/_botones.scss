@@ -9,7 +9,7 @@ $boton: (
     warning: #ffc107,
 );
 
-@mixin botonMixin($color, $alto, $ancho, $border:1px solid #fff) {
+@mixin botonMixin($color, $alto, $ancho, $border:2px solid rgb(14, 7, 7)) {
     background-color: $color;
     width: $alto;
     height: $ancho;

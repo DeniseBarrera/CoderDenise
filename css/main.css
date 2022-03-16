@@ -43,35 +43,35 @@ img.big {
   background-color: #00bcd4;
   width: 200px;
   height: 100px;
-  border: 1px solid #fff;
+  border: 2px solid #0e0707;
   border-radius: 5px; }
 
 .secondary {
   background-color: #607d8b;
   width: 200px;
   height: 100px;
-  border: 1px solid #fff;
+  border: 2px solid #0e0707;
   border-radius: 5px; }
 
 .success {
   background-color: #4caf50;
   width: 200px;
   height: 100px;
-  border: 1px solid #fff;
+  border: 2px solid #0e0707;
   border-radius: 5px; }
 
 .info {
   background-color: #03a9f4;
   width: 200px;
   height: 100px;
-  border: 1px solid #fff;
+  border: 2px solid #0e0707;
   border-radius: 5px; }
 
 .warning {
   background-color: #ffc107;
   width: 200px;
   height: 100px;
-  border: 1px solid #fff;
+  border: 2px solid #0e0707;
   border-radius: 5px; }
 
 * {
@@ -85,31 +85,6 @@ img.big {
     display: flex;
     justify-content: center;
     align-items: center; }
-  * .social-facebook {
-    background-image: url("img/var.png"); }
-  * .social-instagram {
-    background-image: url("img/var.png"); }
-  * .social-linkedin {
-    background-image: url("img/var.png"); }
-  * .social-twitter {
-    background-image: url("img/var.png"); }
-
-.icon-social, .btn--twitter:hover, .btn--facebook:hover, .btn--instagram:hover, .btn--youtube:hover {
-  font-size: 2.5rem;
-  padding: 1.5rem; }
-
-/*Creamos el bucle para usar los valores del mapa*/
-:hover.btn--twitter {
-  background-color: #55acee; }
-
-:hover.btn--facebook {
-  background-color: #3a5795; }
-
-:hover.btn--instagram {
-  background-color: #C25E30; }
-
-:hover.btn--youtube {
-  background-color: #c72f2f; }
 
 .footer {
   position: fixed;
