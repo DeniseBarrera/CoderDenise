@@ -1,0 +1,109 @@
+.header {
+  background-color: #f5f5f5;
+  background-image: linear-gradient(to right, #365e99, #0077ab, #008ea9, #00a196, #3bb179);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+  box-shadow: 0 2px 10px 1px rgba(13, 13, 13, 0.7); }
+  .header .header__logo {
+    height: 50px; }
+  .header .header__title {
+    font-size: 33.33333px; }
+
+/* GRID GALERIA */
+.grid-galeria {
+  display: grid;
+  height: 50vh;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+  column-gap: 10px; }
+
+.big {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  transition: all 2s; }
+
+.box1--scale:hover {
+  transform: scale(1.5); }
+
+.grid-galeria img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover; }
+
+img.big {
+  grid-column: span 2;
+  grid-row: span 2; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * .h1 {
+    height: 10vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  * .social-facebook {
+    background-image: url("img/var.png"); }
+  * .social-instagram {
+    background-image: url("img/var.png"); }
+  * .social-linkedin {
+    background-image: url("img/var.png"); }
+  * .social-twitter {
+    background-image: url("img/var.png"); }
+
+.icon-social, .btn--twitter:hover, .btn--facebook:hover, .btn--send-mail:hover, .btn--youtube:hover {
+  font-size: 2.5rem;
+  padding: 1.5rem; }
+
+/*Creamos el bucle para usar los valores del mapa*/
+:hover.btn--twitter {
+  background-color: #55acee; }
+
+:hover.btn--facebook {
+  background-color: #3a5795; }
+
+:hover.btn--send-mail {
+  background-color: #C25E30; }
+
+:hover.btn--youtube {
+  background-color: #c72f2f; }
+
+.social {
+  background-color: slateblue;
+  width: 50px;
+  position: absolute;
+  top: 120px;
+  right: 20px; }
+  .social ul {
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; }
+    .social ul li {
+      transition: all 0.5s ease; }
+      .social ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5rem; }
+      .social ul li:hover {
+        transform: scale(1.2); }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
