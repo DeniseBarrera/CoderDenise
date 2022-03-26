@@ -20,5 +20,4 @@ $boton: (
 @each $nombre, $color in $boton {
     .#{$nombre} {
         @include botonMixin($color, 200px, 100px);
-    }
-}
+    }}
