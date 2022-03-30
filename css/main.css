@@ -1,8 +1,8 @@
 .header {
   background-color: #f5f5f5;
-  background-image: linear-gradient(to right, #daec13, #97b126, #607827, #33421f, #10110f);
+  background-image: linear-gradient(to right, #dcdfe3, #a0a5a7, #6a6e6e, #393c3a, #0c0d0a);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 100px;
   padding: 0 20px;
@@ -11,6 +11,46 @@
     height: 50px; }
   .header .header__title {
     font-size: 33.33333px; }
+
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 50%;
+  transition: all .8s;
+  cursor: pointer; }
+
+.icon:hover {
+  background-color: #e60073;
+  box-shadow: 0 0 20px #e60073; }
+
+.icon:hover:nth-child(2) {
+  background-color: #1877f2;
+  box-shadow: 0 0 20px #1877f2; }
+
+.icon:hover:nth-child(3) {
+  background-color: #25d366;
+  box-shadow: 0 0 20px #25d366; }
+
+.icon:hover:nth-child(4) {
+  background-color: #1da1f2;
+  box-shadow: 0 0 20px #1da1f2; }
+
+.icon i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem; }
+
+svg circle {
+  stroke-dasharray: 150;
+  transition: all .8s ease-in-out; }
+
+.icon:hover circle {
+  stroke-dasharray: 220; }
 
 /* GRID GALERIA */
 .grid-galeria {
@@ -81,17 +121,40 @@ img.big {
   * .h1 {
     height: 10vh;
     width: 100%;
-    background-color: #f5f5f5;
+    background-image: linear-gradient(to right, #dcdfe3, #a0a5a7, #6a6e6e, #393c3a, #0c0d0a);
     display: flex;
     justify-content: center;
     align-items: center; }
+  * .title-h4 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+body {
+  background-color: #2f3235; }
+
+.card {
+  background-color: #3a3f44;
+  color: #aaa; }
+  .card a {
+    color: #e9ecef; }
 
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #f5f5f5;
+  font-size: 24px;
   height: 5vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  opacity: 0.2; }
